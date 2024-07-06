@@ -1,0 +1,47 @@
+.FacetsApp {
+  display: flex;
+}
+
+.sidebar {
+  width: 350px;
+  padding: 20px;
+  background-color: #e1e1e1;
+}
+
+.facet-category {
+  margin-bottom: 20px;
+}
+
+.facet-category h3 {
+  margin-top: 0;
+}
+
+.facet-value {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.facet-value input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.facet-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-list {
+  flex: 1;
+  padding: 20px;
+}
+
+.employee {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.facet-category input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
